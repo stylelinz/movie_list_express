@@ -4,9 +4,10 @@ const handlebars = require('express-handlebars')
 
 const port = 3000
 
-// app.use('handlebars', { defaultLayout: 'main' })
-// app.set(express.static, 'public')
+app.engine('handlebars', handlebars({ defaultLayout: 'main' }))
+app.set('view engine', 'handlebars')
 
+// Route settings
 app.get('/', (req, res) => {
   res.render('index')
 })
