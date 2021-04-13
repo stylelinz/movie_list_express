@@ -4,6 +4,7 @@ const handlebars = require('express-handlebars')
 const { results: movieLists } = require('./movies.json')
 
 const port = 3000
+// Trying to make find movie quick with hash-table :P
 const moviesMap = {}
 movieLists.forEach(movie => moviesMap[movie.id.toString()] = movie)
 
