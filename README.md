@@ -13,7 +13,7 @@ A node.js + Express.js movie site, users can ...
 ## 安裝與執行步驟 (installation and execution)
   1. 開啟終端機，並輸入以下指令
   ```
-  git clone 
+  git clone https://github.com/stylelinz/movie_list_express.git
   ```
 
   2. 進入專案資料夾，在終端機輸入以下指令
